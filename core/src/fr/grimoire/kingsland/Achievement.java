@@ -24,6 +24,7 @@ public enum Achievement {
 	private float counter;
 	private boolean unlocked = false;
 
+
 	Achievement(String description, int threshold) {
 		this.description = description;
 		this.threshold = threshold;
